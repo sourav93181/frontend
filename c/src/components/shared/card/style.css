@@ -1,0 +1,21 @@
+.Card-name{
+    border: 0.1vh solid rgb(218, 215, 215);
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vw;
+    gap: 2vh;
+    cursor: pointer;
+}
+.Card-name:hover{
+    box-shadow: 0 0 20px rgb(218, 219, 218);
+  }
+  .Card-inside{
+    color: rgb(1, 1, 11);
+    font-size: 3.5vw;
+    font-weight: 500; 
+  }

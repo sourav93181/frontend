@@ -1,0 +1,55 @@
+.detail-cont{
+    display: flex;
+    flex-direction: column;
+    border: 0.1vh solid red;
+    gap: 2vh;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2vh ;
+}
+.company-name{
+    font-size: large;
+    font-weight: 600;
+}
+.company-description{
+    display: flex;
+    flex-direction: column;
+}
+.requirment{
+    display: flex;
+    flex-direction: column;
+}
+.req-header{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.required-skills{
+    display: flex;
+    flex-direction: column;
+}
+.list-of{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    height: 40vh;
+}
+
+.link-name{
+    background-color: rgb(93, 93, 247);
+    color:white;
+    height: 4vh;
+    width: fit-content;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+table , td,tr{
+    border: 0.1vh solid gray;
+    border-collapse: collapse;
+
+}
+th,td{
+    padding: 1.2vh;
+}

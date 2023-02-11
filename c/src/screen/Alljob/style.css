@@ -1,0 +1,32 @@
+.cont{
+    /* background-color: #cfe4ea; */
+    background-color: rgb(246, 244, 244);
+}
+.logo-setting{
+    height: 12vh;
+    width: 20vw;
+    border-radius: 80%;
+    
+}
+.logo-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.job-name{
+    /* border: 0.1vh solid rgb(247, 6, 6); */
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2vh;
+    padding: 1vh;
+}
