@@ -31,7 +31,7 @@ import MakeRequest from "../../utils/apiHandler";
 // }
 export async function GetCompanys(body) {
     let result = await MakeRequest(
-      `http://18.183.139.171:8000/api/`
+      `https://18.183.139.171:8000/api/`
     ).get();
     console.log("FROM LoginAPI ", result);
     console.log("api try block ok");
@@ -49,7 +49,7 @@ export async function GetCompanys(body) {
 
 export async function GetCompanyById(body) {
   let result = await MakeRequest(
-    `http://18.183.139.171:8000/api/`
+    `https://18.183.139.171:8000/api/`
   ).get(body);
   console.log("FROM LoginAPI ", result);
   console.log("api try block ok");
